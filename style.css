@@ -1,0 +1,51 @@
+* {
+    
+ 
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+   
+
+}
+.sidebar {
+    background-color:#121212;
+    width: 300px;
+    border-radius: 1rem;
+    margin: 4px;
+}
+
+.main-content {
+      background-color:#121212;
+    flex:1;
+      border-radius: 1rem;
+      overflow: auto;
+}
+.music-plaiyer {
+     background-color:#121212;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+.sidebar div {
+  
+    
+}
+.sidebar .nav {
+    height: 130px;
+    width: 100%;
+    background-color: aqua;
+}
+.sidebar .lib {
+    width: 100%;
+    background-color: blueviolet;
+    flex:1;
+}
