@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .portfolio {
+            display: flex;
+          
+            height: 100%;
+           
+            background-color: aquamarine;
+            
+        }
+        .container {
+            background-color: black;
+           
+            width: 600px;
+            margin: 0 auto;
+            margin-top: 100px ;
+        }
+        .pic {
+            height: 100%;
+            width: 40%;
+        }
+        img {
+            height: 100%;
+            width: 100%;
+             border-radius: 14px;
+            
+        }
+        .right {
+            margin: 10px 14px;
+            border: 2px solid black;
+            padding: 6px 6px;
+          
+        }
+        .content {
+            flex: 1;
+                margin: 11px 21px;
+        }
+        .pics {
+            margin: 19px 14px;
+            border-radius: 10px;
+        }
+        @media ( min-width : 200px) and (max-width: 700px) {
+            .portfolio {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .new {
+               
+               width: 512px;
+               margin: -12px 14px; 
+               
+
+            }
+            .pic {
+                 align-self: flex-start;
+                 margin: 0px 23px;
+
+            }
+            
+        }
+        .new {
+             border: 2px solid black;
+            padding: 6px 6px;
+             margin: 10px 14px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="portfolio">
+            <div class="pic">
+               <div class="pics">
+                 <img src="WhatsApp Image 2025-09-24 at 14.21.29_ef59fe5f.jpg" alt="">
+               </div>
+               <div class="new">
+                <h2>About</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ad ab ipsum, laborum temporibus aliquid corporis, id repudiandae molestiae maxime mollitia at obcaecati sunt tenetur amet dignissimos quas officia voluptate.</p>
+               </div>
+            </div>
+            <div class="content">
+                <div class="right">
+                    <h2> Education </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla possimus fugit consequuntur sit minima necessitatibus officia unde provident soluta perferendis quas, asperiores, similique, itaque odit. Id voluptas maxime commodi.</p>
+                </div>
+                <div class="right">
+                    <h2> Certificates </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla possimus fugit consequuntur sit minima necessitatibus officia unde provident soluta perferendis quas, asperiores, similique, itaque odit. Id voluptas maxime commodi.</p>
+                </div>
+                <div class="right">
+                    <h2> Achievements </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla possimus fugit consequuntur sit minima necessitatibus officia unde provident soluta perferendis quas, asperiores, similique, itaque odit. Id voluptas maxime commodi.</p>
+                </div>
+                
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
